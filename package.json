@@ -1,0 +1,9 @@
+{
+  "name": "botler",
+  "version": "1.0.0",
+  "description": "A general purpose discord bot, with a \"slot-in\" module structure fit for expansion and building-upon",
+  "main": "index.js",
+  "repository": "https://github.com/rafael-g-depaulo/botler",
+  "author": "Rafael G. de Paulo <rafael.g.depaulo@gmail.com>",
+  "license": "MIT"
+}
