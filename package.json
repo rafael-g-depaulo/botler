@@ -11,7 +11,7 @@
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && nodemon -r dotenv/config ./build/index.js"
+    "start": "npm run build && nodemon ./build/index.js"
   },
   "repository": "https://github.com/rafael-g-depaulo/botler",
   "author": "Rafael G. de Paulo <rafael.g.depaulo@gmail.com>",
