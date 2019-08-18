@@ -2,8 +2,23 @@
   "name": "botler",
   "version": "1.0.0",
   "description": "A general purpose discord bot, with a \"slot-in\" module structure fit for expansion and building-upon",
-  "main": "index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "local": "nodemon --exec babel-node -r node_modules/dotenv/config ./src/index.js",
+    "try": "nodemon --exec babel-node -r node_modules/dotenv/config",
+    "test": "jest --setupFiles dotenv/config",
+    "watch": "jest --setupFiles dotenv/config --watch"
+  },
   "repository": "https://github.com/rafael-g-depaulo/botler",
   "author": "Rafael G. de Paulo <rafael.g.depaulo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "dotenv": "^8.0.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  }
 }

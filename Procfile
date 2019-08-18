@@ -1,0 +1,1 @@
+worker: node --exec babel-node -r node_modules/dotenv/config ./src/index.js
