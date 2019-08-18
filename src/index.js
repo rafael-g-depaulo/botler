@@ -1,0 +1,1 @@
+console.log(`current envinronment is ${process.env.NODE_ENV}`)
