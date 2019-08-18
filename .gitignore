@@ -1,6 +1,10 @@
 # dependencies
 node_modules
 
+# ignore build
+build
+
 # misc
 yarn.lock
+yarn-error.log
 .env
